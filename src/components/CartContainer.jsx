@@ -48,7 +48,7 @@ const CreateContainer = () => {
       (error) => {
         console.log(error);
         setFields(true);
-        setMsg("Error while uploading : Try Again 🙇");
+        setMsg("Error while uploading : Try AGain 🙇");
         setAlertStatus("danger");
         setTimeout(() => {
           setFields(false);
@@ -226,7 +226,7 @@ const CreateContainer = () => {
                   <div className="relative h-full">
                     <img
                       src={imageAsset}
-                      alt="uploaded_image"
+                      alt="uploaded image"
                       className="w-full h-full object-cover"
                     />
                     <button

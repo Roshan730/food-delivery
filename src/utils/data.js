@@ -13,7 +13,7 @@ export const heroData = [
   },
   {
     id: 2,
-    name: "Fresh Strawberries",
+    name: "Strawberries",
     decp: "Fresh Strawberries",
     price: "200",
     imageSrc: F1,
