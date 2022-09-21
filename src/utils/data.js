@@ -33,3 +33,42 @@ export const heroData = [
     imageSrc: M1,
   },
 ];
+
+export const categories = [
+  {
+    id: 1,
+    name: "Paneer",
+    urlParamName: "paneer",
+  },
+  {
+    id: 2,
+    name: "Burger",
+    urlParamName: "burger",
+  },
+  {
+    id: 3,
+    name: "Momos",
+    urlParamName: "momos",
+  },
+  {
+    id: 4,
+    name: "Pizza",
+    urlParamName: "pizza",
+  },
+  {
+    id: 5,
+    name: "Fruits",
+    urlParamName: "fruits",
+  },
+  {
+    id: 6,
+    name: "Icecreams",
+    urlParamName: "icecreams",
+  },
+
+  {
+    id: 7,
+    name: "Soft Drinks",
+    urlParamName: "drinks",
+  },
+];
