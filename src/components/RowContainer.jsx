@@ -56,7 +56,7 @@ const RowContainer = ({ flag, data, scrollValue }) => {
               </motion.div>
               <motion.div
                 whileTap={{ scale: 0.75 }}
-                className="w-8 h-8 rounded-full bg-red-600 flex items-center justify-center cursor-pointer hover:shadow-md -mt-8"
+                className="w-8 h-8 rounded-full bg-green-400 flex items-center justify-center cursor-pointer hover:shadow-md -mt-8"
                 onClick={() => setItems([...cartItems, item])}
               >
                 <MdShoppingBasket className="text-white" />
@@ -72,7 +72,8 @@ const RowContainer = ({ flag, data, scrollValue }) => {
               </p>
               <div className="flex items-center gap-8">
                 <p className="text-lg text-headingColor font-semibold">
-                  <span className="text-sm text-red-500">₹</span> {item?.price}
+                  <span className="text-sm text-red-500">₹</span>{" "}
+                  {item?.price}
                 </p>
               </div>
             </div>
@@ -80,7 +81,7 @@ const RowContainer = ({ flag, data, scrollValue }) => {
         ))
       ) : (
         <div className="w-full flex flex-col items-center justify-center">
-          <img src={NotFound} className="h-340" alt="NotFound" />
+          <img src={NotFound} className="h-340" alt="notfound" />
           <p className="text-xl text-headingColor font-semibold my-2">
             Items Not Available
           </p>
